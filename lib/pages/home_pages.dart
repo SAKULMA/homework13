@@ -54,16 +54,16 @@ class _HomePageState extends State<HomePage> {
                         child: Container(
                           width: 80.0,
                           height: 80.0,
-                          child: Image.asset('assets/images/profile.jpg'),
+                          child: Image.asset('assert/images/img.png'),
                         )
                     ),
                   ),
                   Text(
-                    'Parcharapon Kongjay',
+                    'Sanhanut sakulma',
                     style: TextStyle(color: Colors.white, fontSize: 20.0),
                   ),
                   Text(
-                    'kongjay_p@silpakorn.edu',
+                    'sakulma_s@silpakorn.edu',
                     style: TextStyle(color: Colors.white70, fontSize: 14.0),
                   ),
                 ],
@@ -190,12 +190,12 @@ class ProfilePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
-                  'Parcharapon Kongjay',
+                  'Sanhanut Sakulma',
                   style: TextStyle(color: Colors.black54, fontSize: 25.0),
                 ),
               ),
               Text(
-                'kongjay_p@silpakorn.edu',
+                'sakulma_s@silpakorn.edu',
                 style: TextStyle(color: Colors.black, fontSize: 15.0),
               ),
             ],
